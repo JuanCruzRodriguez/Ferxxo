@@ -1,0 +1,471 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("fuentes/Montserrat/Montserrat-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("fuentes/Montserrat/Montserrat-Bold.ttf");
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'DK Yellow';
+    src: url("fuentes/DK\ Lemon\ Yellow\ Sun.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+main, nav, header, footer{display:block;}
+
+body{
+	margin: 0;
+    background-image: url(../multimedia/fondo.webp);
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    position: sticky;
+    top: 0%;
+    height: 90px;
+    padding: 30px 150px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    color: #39FF14;
+}
+
+.logo-header{
+    background-image: url(../multimedia/ferxxo-logo.png);
+    height: 75px;
+    width: 230px;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-header:hover {
+    background-size: 100%;
+    transition-duration: 400ms;
+    cursor: pointer;
+}
+
+nav ul{ 
+    display: flex;
+    list-style-type: none;
+}
+
+nav a{
+    margin: 0 50px;
+    text-decoration: none;
+    font-family: 'DK Yellow';
+    font-weight: normal;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #39FF14;
+    transition-duration: 400ms;
+}
+
+.redes{
+    height: auto;
+    width: 200px;
+}
+
+.redes ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes ul li{
+    margin: 10px;
+}
+
+.redes img{
+    width: 100%;
+    padding: 1em;
+}
+
+.banner{
+    background-image: url(../multimedia/9be864fa-feid-concierto-auditorio_lacarteleramx_mx-21.webp);
+    background-size: 100%;
+    height: 892px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 5em;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.banner p {
+    font-size: 2.5em;
+    font-family: 'Montserrat';
+    font-weight: normal;
+}
+
+.banner .btn {
+    margin-top: 80px;
+    margin-bottom: 130px;
+    padding: 10px 20px;
+    color: #39FF14;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    border-color: #39FF14;
+    border-style: solid;
+    border-radius: 40px;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.banner .btn:hover{
+    background-color: #37ff14b2;
+    color: black;
+    transition-duration: 400ms;
+}
+
+#albumes h1{
+    font-family: 'DK Yellow';
+    font-weight: normal;
+    font-size: 6em;
+    color: #39FF14;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.album h2{
+    font-family: 'DK Yellow';
+    font-weight: normal;
+    font-size: 3.5em;
+    color: white;
+    text-shadow: 2px 2px 3px #39FF14;
+    margin: 0;
+}
+
+div iframe{
+    width: 65%;
+    height: 152px;
+    border-radius:12px;
+    border-color: #39FF14;
+    margin-top: 1.5em;
+}
+
+main{
+    width: 1400px;
+    margin: auto;
+    color: white;
+    padding-bottom: 100px;
+}
+
+main h2{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-family: 'DK Yellow';
+    font-weight: normal;
+    font-size: 4em;
+    color: #39FF14;
+}
+
+main h3{
+    font-family: 'DK Yellow';
+    font-weight: normal;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 3px #39FF14;
+    margin: 0;
+}
+
+main ul{
+    list-style-type: none;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+main p{
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+.album{
+    background-color: #00000070;
+    text-align: center;
+    width: 600px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #39FF14;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 50px;
+}
+
+.album p{
+    color: rgb(112, 112, 112);
+    margin-bottom: 50px;
+}
+
+.album img{
+    width: 300px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.album ol{
+    list-style-type: decimal-leading-zero;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 1.5em;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.sub-seccion{
+    display: inline-block;
+}
+
+.sub-seccion ol li{
+    color: #39FF14;
+    font-family: 'DK Yellow';
+    font-weight: normal;
+    font-size: 1.2em;
+    letter-spacing: 5px;
+    margin-left: 0.6em;
+}
+
+.lista-premios{
+    list-style-image: url(../multimedia/disco.png);
+    margin-left: 1em;
+}
+
+.lista-premios li{
+    margin-top: 1em;
+}
+
+#sorteo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sorteo h1{
+    font-family: 'DK Yellow';
+    font-weight: normal;
+    font-size: 6em;
+    color: #39FF14;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+#sorteo p{
+    font-size: 2em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #00000080;
+    border: solid;
+    border-radius: 20px;
+    border-color: #39FF14;
+    border-width: 2px;
+    padding: 2em;
+    margin-top: 2em;
+    width: 500px;
+}
+
+form span{
+    margin-top: 0.6em;
+    margin-bottom: 0.5em;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #39FF14;
+}
+
+form label{
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 1em;
+    margin-top: 0.5em;
+}
+
+form input{
+    background-color: rgba(99, 99, 99, 0.5);
+    color: rgb(201, 201, 201);
+    margin-bottom: 0.6em;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: solid grey 1px;
+    padding: 5px 5px 5px 10px;
+}
+
+form select{
+    background-color: rgba(99, 99, 99, 0.5);
+    color: rgb(143, 143, 143);
+    margin-bottom: 0.6em;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: solid grey 1px;
+    padding: 5px 5px 5px 10px;
+}
+
+form select option{
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+
+form div{
+    margin-top: 1.4em;
+}
+
+form div span{
+    font-size: 1em;
+}
+
+form a{
+    color: #39FF14;
+}
+
+form button{
+    margin: 40px 40px 10px 40px;
+    padding: 10px 20px;
+    color: #39FF14;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    border-color: #39FF14;
+    border-style: solid;
+    border-radius: 40px;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #37ff14b2;
+    color: black;
+    transition-duration: 400ms;
+}
+
+#gracias h1{
+    font-family: 'DK Yellow';
+    font-weight: normal;
+    font-size: 6em;
+    color: #39FF14;
+    padding-top: 20px;
+    margin-bottom: 0;
+} 
+
+#gracias a{
+    padding: 10px 20px;
+    color: #39FF14;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    border-color: #39FF14;
+    border-style: solid;
+    border-radius: 40px;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+#gracias a:hover{
+    background-color: #37ff14b2;
+    color: black;
+    transition-duration: 400ms;
+}
+
+#gracias div{
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.logo-footer{
+    background-image: url(../multimedia/ferxxo-logo-footer.png);
+    height: 75px;
+    width: 230px;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    margin: 10px;
+}
+
+footer a:hover {
+    color: #39FF14;
+    transition-duration: 400ms;
+}
+
+#autor ul{
+    list-style-type: none;
+    font-family: 'DK Yellow';
+    font-weight: normal;
+    color: #39FF14;
+    font-size: 1.5em;
+    padding: 0;
+    margin-top: 2em;
+}
+
+.copyright{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 0.8em;
+}
+
+
+
+
+
+
+
+
+

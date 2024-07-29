@@ -1,0 +1,12 @@
+ALUMNO: Juan Cruz Rodríguez
+DNI: 44157979
+
+MATERIA: Maquetado y Desarrollo Web
+DOCENTE: Mabel García
+
+CARRERA: Diseño y Desarrollo Web
+COMISIÓN: 1AV
+AÑO: 2024
+
+FECHA Y HORA DE FINAL: 01/08/2024 - 19:00 hs
+
